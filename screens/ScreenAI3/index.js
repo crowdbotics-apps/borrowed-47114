@@ -10,9 +10,7 @@ const WelcomeScreen = () => {
       uri: 'https://tinyurl.com/42evm3m3'
     }} style={styles.image} />
       <View style={styles.textContainer}>
-        <Text style={styles.descriptionText}>
-          Discover a wide range of amazing features tailored just for you.
-        </Text>
+        <Text style={styles.descriptionText}>{"Step into our community-driven app and start borrowing items from your neighbors today!        "}</Text>
       </View>
       <TouchableOpacity style={styles.button}>
         <Text style={styles.buttonText}>Get Started</Text>
@@ -47,7 +45,8 @@ const styles = StyleSheet.create({
   descriptionText: {
     fontSize: 16,
     textAlign: 'center',
-    color: '#666'
+    color: '#666',
+    fontFamily: "inherit"
   },
   button: {
     marginTop: 30,
