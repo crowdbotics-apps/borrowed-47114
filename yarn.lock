@@ -1574,7 +1574,7 @@
 "@modules/payments@file:./modules/payments":
   version "1.0.1"
 
-"@modules/user-profile@file:./modules/user-profile/":
+"@modules/user-profile@file:./modules/user-profile":
   version "1.0.0"
   dependencies:
     "@react-navigation/native" "^5.9.2"
@@ -1582,6 +1582,9 @@
     react-native-elements "^2.3.2"
 
 "@modules/youtube-player@file:./modules/youtube-player":
+  version "1.0.0"
+
+"@modules/youtube-player@file:./modules/youtube-player/":
   version "1.0.0"
 
 "@nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1":
