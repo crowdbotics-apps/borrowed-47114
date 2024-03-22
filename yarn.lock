@@ -1571,6 +1571,9 @@
 "@modules/maps@file:./modules/maps":
   version "1.0.0"
 
+"@modules/maps@file:./modules/maps/":
+  version "1.0.0"
+
 "@modules/payments@file:./modules/payments":
   version "1.0.1"
 
