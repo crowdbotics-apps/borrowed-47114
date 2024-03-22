@@ -1556,7 +1556,10 @@
 "@modules/image-gallery@file:./modules/image-gallery":
   version "1.0.0"
 
-"@modules/live-camera-filters@file:./modules/live-camera-filters/":
+"@modules/image-gallery@file:./modules/image-gallery/":
+  version "1.0.0"
+
+"@modules/live-camera-filters@file:./modules/live-camera-filters":
   version "1.0.0"
   dependencies:
     "@react-native-community/cameraroll" "^4.1.2"
